@@ -1,0 +1,267 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+body {
+	background-color: #fffaf2; 
+}
+h3, p {
+    margin:0;
+    padding:0;
+}
+img {
+	vertical-align: top;
+}
+button {
+    border:none;
+    outline: none;
+}
+
+
+
+
+.outer-wrap {
+	height:100%;
+	width:10.0rem;
+	margin:0 auto;
+	background:url('../img/hot/hot-bg.jpg') repeat-y;
+	background-size:10rem;
+}
+
+.nav {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	background-color:#fff;
+	z-index:10;
+}
+.nav span {
+	float:left;
+	width:50%;
+	height:1.306667rem;
+	
+}
+.nav span.present.active {
+	background:url('../img/home/nav-present.jpg') no-repeat center bottom;
+	background-size:0.64rem 0.96rem;
+} 
+.nav span.person {
+	background:url(../img/home/nav-person.jpg) no-repeat center bottom ;
+	background-size:0.64rem 0.96rem;
+}
+
+
+.inner-wrap {
+	height:100%;
+	width:100%;
+	padding-top:1.306667rem;
+	padding-bottom:1.2rem;
+	box-sizing:border-box;
+	background-color: #fffaf2; 
+}
+.inner-wrap>div {
+	padding-bottom:1.2rem;
+}
+
+/* 首页样式 */
+.main-home {
+	height:13.386667rem;
+	width:100%;
+	background:url('../img/home/home-bg.jpg') no-repeat;
+	background-size:10.0rem 13.386667rem;
+	position:relative;
+	/* display:none;  */
+}
+.main-home .countdown {
+	display:block;
+	width:1.2rem;
+	height:0.666667rem;
+	line-height:0.666667rem;
+	position:absolute;
+	right:0.7rem;
+	top:1.04rem;
+	color:#e2311b;
+	letter-spacing: 0.4rem;
+	font-size:0.373333rem;
+	font-weight:700;
+}
+.main-home .boom-bg {
+	position:absolute;
+	right:0.6rem;
+	bottom:2.4rem;
+	height:2.6rem;
+	width:0.853333rem;
+	background:url('../img/home/boom.png') no-repeat;
+	background-size:0.853333rem 2.6rem;
+	z-index:10;
+}
+.main-home .cloud-bg {
+	position:absolute;
+	left:0;
+	top:12.466667rem;
+	height:0.426667rem;
+	width:100%;
+	background:url('../img/home/cloud-bg.png') no-repeat;
+	background-size:10.0rem 0.426667rem;
+	z-index:10;
+}
+.main-home .video {
+	height:4.266667rem;
+	width:7.333333rem;
+	position:absolute;
+	top:8.6rem;
+	left:1.373333rem;
+	background:red;
+	border-radius:0.106667rem;
+}
+
+
+
+
+
+/* 热销页样式 */
+.main-hot {
+         display:none;
+	height:100%;
+	width:100%;
+	background:url('../img/hot/hot-bg.jpg') repeat-y;
+	background-size:10rem;
+	position:relative;
+}
+.main-hot ul {
+	position:relative;
+	width:100%;
+}
+.main-hot ul li {
+	position:absolute;
+	width:100%;
+	left:0;
+	top:0;
+	display:none; 
+}
+.main-hot ul li a {
+	display:block;
+}
+.main-hot ul li a img {
+	height:12.013333rem;
+	width:10.0rem;
+}
+
+.main-hot span {
+	position:absolute;
+	display:block;
+	height:1.56rem;
+	width:1.52rem;
+	top:5.066667rem;
+}
+.main-hot span.prev {
+	left:0;
+	background:url('../img/hot/prev.png') no-repeat center center;
+	background-size:0.453333rem 0.493333rem;
+}
+.main-hot span.next {
+	right:0;
+	background:url('../img/hot/next.png') no-repeat center center;
+	background-size:0.453333rem 0.493333rem;
+}
+.main-hot span.prev.active {
+	background:url('../img/hot/prev-active.png') no-repeat;
+	background-size:0.453333rem 0.493333rem;
+}
+
+.main-hot span.next.active {
+	background:url('../img/hot/next-active.png') no-repeat;
+	background-size:0.453333rem 0.493333rem;
+}
+
+
+
+
+/* 单品页样式 */
+.main-product {
+	width:100%;
+	background-color: #ffeacf;
+	box-sizing:border-box;
+	padding:0.16rem 0.266667rem 0;
+	display:none;
+}
+.main-product .product {
+	float:left;
+	width:50%;
+	box-sizing:border-box;
+	padding-bottom:0.36rem;
+}
+.main-product .product:nth-child(odd){
+	padding-right:0.2rem;
+}
+.main-product .product:nth-child(even){
+	padding-left:0.2rem;
+}
+.main-product .product img {
+	width:4.533333rem;
+	height:4.44rem;
+}
+.main-product a {
+	display:block;
+}
+.main-product .more {
+	float:left;
+	width:100%;
+	margin-bottom:0.36rem;
+}
+.main-product .more>a {
+	margin:0 auto;
+	height:0.84rem;
+	width:2.933333rem;
+	background:url('../img/product/more-bg.jpg') no-repeat;
+	background-size:2.933333rem 0.84rem;
+}
+
+
+/* 礼盒页样式 */
+.main-present {
+	
+	padding-top:0.96rem;
+	width:100%;
+	background:url('../img/present/present-bg.jpg') repeat-y;
+	background-size:10rem;
+	display:none;
+	
+}
+.main-present .present {
+	margin-bottom:0.96rem;
+}
+.main-present .present a {
+	display:block;
+}
+.main-present .present a img {
+	width:10.0rem;
+	height:5.08rem;
+}
+
+.footer {
+	position:fixed;
+	left:0;
+	bottom:0;
+	height:1.2rem;
+	width:100%;
+	background-color: #fff;
+
+}
+.footer ul {
+	margin:0.266667rem 0 0.066667rem;
+}
+.footer ul li {
+	float:left;
+	width:25%;
+	height:0.866667rem;
+	line-height:0.866667rem;
+	text-align:center;
+	color:#beb7a4;
+}
+.footer ul li.active {
+	color:#f63b2a;
+	background:url('../img/home/footer-cloud.jpg') no-repeat center center;
+	background-size:1.64rem 0.866667rem;
+}

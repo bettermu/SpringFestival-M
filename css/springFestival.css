@@ -166,12 +166,12 @@ button {
 	background-size:0.453333rem 0.493333rem;
 }
 .main-hot span.prev.active {
-	background:url('../img/hot/prev-active.png') no-repeat;
+	background:url('../img/hot/prev-active.png') no-repeat center center;
 	background-size:0.453333rem 0.493333rem;
 }
 
 .main-hot span.next.active {
-	background:url('../img/hot/next-active.png') no-repeat;
+	background:url('../img/hot/next-active.png') no-repeat center center;
 	background-size:0.453333rem 0.493333rem;
 }
 
